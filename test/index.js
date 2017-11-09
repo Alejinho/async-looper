@@ -48,6 +48,19 @@ describe('Loop asynchronous over objects and array', function () {
     })
   })
 
+  it('Should update object attributes value.', function (done) {
+    const newValue = 100
+    loop(object, (item, next) => {
+      if (item.key === 'a') {
+        object[item.key] = newValue
+      }
+      next()
+    }, errors => {
+      expect(object.a).to.be.equal(newValue)
+      done()
+    })
+  })
+
   it('Should call stop at 5th element.', function (done) {
     const limit = 5
     let counter = 0
