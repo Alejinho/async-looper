@@ -1,5 +1,9 @@
 # async-looper
 
+[![NPM version][npm-badge]](https://www.npmjs.com/package/async-looper)
+[![NPM downloads][npm-d-badge]](https://www.npmjs.com/package/async-looper)
+[![Build Status][travis-badge]](https://travis-ci.org/Alejinho/async-looper)
+
 Fast, flexible and simple function that loops through 
 each **array** or **object** element to execute 
 asynchronous code.
@@ -98,3 +102,7 @@ loop(array, (item, next) => {
 2. Benchmarks.
 3. Should we have the key value while loop through 
 an array?
+
+[npm-badge]: https://img.shields.io/npm/v/async-looper.svg
+[npm-d-badge]: https://img.shields.io/npm/dt/async-looper.svg
+[travis-badge]: https://img.shields.io/travis/Alejinho/async-looper.svg
