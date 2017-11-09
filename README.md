@@ -92,3 +92,9 @@ loop(array, (item, next) => {
   done()
 })
 ```
+
+## TODO
+1. Improve documentation.
+2. Benchmarks.
+3. Should i have the key value while loop through 
+an array?
