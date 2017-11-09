@@ -54,7 +54,7 @@ loop(object, (item, next) => {
 ```
 
 If you need you can stop the loop just passing
-an param to next function.
+a second param to the next function.
 
 ```javascript 1.8
 const loop = require('async-looper')
@@ -94,7 +94,7 @@ loop(array, (item, next) => {
 ```
 
 ## TODO
-1. Improve documentation.
+1. Improve the documentation.
 2. Benchmarks.
-3. Should i have the key value while loop through 
+3. Should we have the key value while loop through 
 an array?
