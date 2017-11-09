@@ -1,0 +1,34 @@
+{
+  "name": "async-looper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --ui bdd ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejinho/async-looper.git"
+  },
+  "keywords": [
+    "async",
+    "loop",
+    "loop",
+    "object",
+    "loop",
+    "iterate",
+    "async"
+  ],
+  "author": "Alejandro Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejinho/async-looper/issues"
+  },
+  "homepage": "https://github.com/Alejinho/async-looper#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "repeat-element": "^1.1.2",
+    "standard": "^10.0.3"
+  }
+}
