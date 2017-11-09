@@ -1,5 +1,5 @@
-# async-looper
-
+async-looper
+====================
 [![NPM version][npm-badge]](https://www.npmjs.com/package/async-looper)
 [![NPM downloads][npm-d-badge]](https://www.npmjs.com/package/async-looper)
 [![Build Status][travis-badge]](https://travis-ci.org/Alejinho/async-looper)
@@ -8,8 +8,8 @@ Fast, flexible and simple function that loops through
 each **array** or **object** element to execute 
 asynchronous code.
 
-## Usage
-
+Usage
+------------
 This function expect four parameters:
 1. Element to loop through
 2. Function to execute each time
@@ -97,7 +97,8 @@ loop(array, (item, next) => {
 })
 ```
 
-## TODO
+TODO
+------------
 1. Improve the documentation.
 2. Benchmarks.
 3. Should we have the key value while loop through 
