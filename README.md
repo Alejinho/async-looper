@@ -4,6 +4,7 @@ async-looper
 [![NPM downloads][npm-d-badge]](https://www.npmjs.com/package/async-looper)
 [![Build Status][travis-badge]](https://travis-ci.org/Alejinho/async-looper)
 
+
 Fast, flexible and simple function that loops through 
 each **array** or **object** element to execute 
 asynchronous code.
