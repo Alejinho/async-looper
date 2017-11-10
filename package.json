@@ -1,6 +1,6 @@
 {
   "name": "async-looper",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Fast, flexible and simple function that loops through each array or object element to execute asynchronous code.",
   "main": "index.js",
   "scripts": {
