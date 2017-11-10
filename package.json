@@ -1,7 +1,7 @@
 {
   "name": "async-looper",
   "version": "1.0.4",
-  "description": "",
+  "description": "Fast, flexible and simple function that loops through each array or object element to execute asynchronous code.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --ui bdd ./test"
