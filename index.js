@@ -21,7 +21,7 @@ function loopAsync (array, callback, finish, maxTick = 3) {
   const isObject = typeof array === 'object'
   let counter = 0
   if (!isArray && !isObject) {
-    throw new TypeError('Debe suministrar un arreglo o un objeto')
+    throw new TypeError('Type of item to iterate must be array or object, given: ' + array)
   }
   const keys = Object.keys(source)
   let errors = null
